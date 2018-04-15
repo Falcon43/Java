@@ -1,11 +1,11 @@
-package arg.aishwarya.jaxrs.service;
+package jaxrs.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import arg.aishwarya.jaxrs.jersey.database.DatabaseClass;
-import arg.aishwarya.jaxrs.jersey.model.Message;
+import jaxrs.jersey.database.DatabaseClass;
+import jaxrs.jersey.model.Message;
 
 public class MessageService {
 	
