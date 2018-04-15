@@ -1,4 +1,4 @@
-package arg.aishwarya.jaxrs.jersey.model;
+package jaxrs.jersey.model;
 
 import java.util.Date;
 
