@@ -1,10 +1,9 @@
-package arg.aishwarya.jaxrs.jersey.database;
+package jaxrs.jersey.database;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import arg.aishwarya.jaxrs.jersey.model.Message;
-//import arg.aishwarya.jaxrs.jersey.model.Profile;
+import jaxrs.jersey.model.Message;
 
 public class DatabaseClass {
 	
@@ -14,13 +13,4 @@ public class DatabaseClass {
 	public static Map<Long, Message> getMessages() {
 		return messages;
 	}
-
-/*	public static Map<Long, Profile> getProfiles() {
-		return profiles;
-	}
-*/
-
-
-	
-	
 }
