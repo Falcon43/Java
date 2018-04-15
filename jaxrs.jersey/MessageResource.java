@@ -1,4 +1,4 @@
-package arg.aishwarya.jaxrs.jersey.newresources;
+package jaxrs.jersey.newresources;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import arg.aishwarya.jaxrs.jersey.model.Message;
-import arg.aishwarya.jaxrs.service.MessageService;
+import jaxrs.jersey.model.Message;
+import jaxrs.service.MessageService;
 
 @Path("/messages")
 @Consumes(MediaType.APPLICATION_JSON)
