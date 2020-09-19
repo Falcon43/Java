@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restapp
+Bundle-SymbolicName: restapp
+Bundle-Version: 1.0.0.qualifier
+Export-Package: arg.aishwarya.resteasy.restapp
+Bundle-RequiredExecutionEnvironment: JavaSE-9

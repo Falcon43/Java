@@ -1,0 +1,33 @@
+06:38:00 **** Incremental Build of configuration Release for project C_programming ****
+make all 
+Building file: ../src/pthreads.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pthreads.d" -MT"src/pthreads.o" -o "src/pthreads.o" "../src/pthreads.c"
+../src/pthreads.c:20:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main(int argc, char *argv[])
+^
+../src/pthreads.c:20:1: note: change return type to 'int'
+void main(int argc, char *argv[])
+^~~~
+int
+../src/pthreads.c:29:39: error: use of undeclared identifier 'myfunc'
+        ret1 = pthread_create(thread1, NULL, myfunc, (void *) msg1);  // varname,const,  function, arguments
+                                             ^
+../src/pthreads.c:30:39: error: use of undeclared identifier 'myfunc'
+        ret2 = pthread_create(thread2, NULL, myfunc, (void *) msg2);
+                                             ^
+../src/pthreads.c:33:9: warning: missing terminating '"' character [-Winvalid-pp-token]
+        printf("\nAfter pthread_create!!!!\n);
+               ^
+../src/pthreads.c:33:9: error: expected expression
+../src/pthreads.c:56:1: error: expected '}'
+^
+../src/pthreads.c:21:1: note: to match this '{'
+{
+^
+2 warnings and 4 errors generated.
+make: *** [src/pthreads.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+06:38:00 Build Failed. 5 errors, 2 warnings. (took 180ms)
+

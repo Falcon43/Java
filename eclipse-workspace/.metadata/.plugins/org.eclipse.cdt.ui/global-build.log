@@ -1,0 +1,68 @@
+08:51:52 **** Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+Building file: ../src/CSC566_Assignment5_I.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CSC566_Assignment5_I.d" -MT"src/CSC566_Assignment5_I.o" -o "src/CSC566_Assignment5_I.o" "../src/CSC566_Assignment5_I.c"
+../src/CSC566_Assignment5_I.c:63:75: warning: unknown attribute '__leaf__' ignored [-Wunknown-attributes]
+extern  __attribute__((__nothrow__)) int ( __attribute__((__nonnull__(1), __leaf__)) pthread_mutex_init)(o___90 *__mutex ,
+                                                                          ^
+../src/CSC566_Assignment5_I.c:93:22: warning: incompatible redeclaration of library function 'strtoul' [-Wincompatible-library-redeclaration]
+extern unsigned long strtoul(char const   *str , char const   *endptr , int base ) ;
+                     ^
+../src/CSC566_Assignment5_I.c:93:22: note: 'strtoul' is a builtin with type 'unsigned long (const char *, char **, int)'
+../src/CSC566_Assignment5_I.c:94:12: warning: declaration of built-in function 'fprintf' requires inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+extern int fprintf(struct t___8 *stream , char const   *format  , ...) ;
+           ^
+../src/CSC566_Assignment5_I.c:104:15: warning: incompatible redeclaration of library function 'strtod' [-Wincompatible-library-redeclaration]
+extern double strtod(char const   *str , char const   *endptr ) ;
+              ^
+../src/CSC566_Assignment5_I.c:104:15: note: 'strtod' is a builtin with type 'double (const char *, char **)'
+../src/CSC566_Assignment5_I.c:123:75: warning: unknown attribute '__leaf__' ignored [-Wunknown-attributes]
+extern  __attribute__((__nothrow__)) int ( __attribute__((__nonnull__(1), __leaf__)) pthread_cond_init)(o___115 * __restrict  __cond ,
+                                                                          ^
+../src/CSC566_Assignment5_I.c:131:14: warning: incompatible redeclaration of library function 'strtof' [-Wincompatible-library-redeclaration]
+extern float strtof(char const   *str , char const   *endptr ) ;
+             ^
+../src/CSC566_Assignment5_I.c:131:14: note: 'strtof' is a builtin with type 'float (const char *, char **)'
+../src/CSC566_Assignment5_I.c:155:14: warning: declaration of built-in function 'fopen' requires inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+extern void *fopen(char const   *filename , char const   *mode ) ;
+             ^
+../src/CSC566_Assignment5_I.c:158:13: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+extern long strtol(char const   *str , char const   *endptr , int base ) ;
+            ^
+../src/CSC566_Assignment5_I.c:158:13: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+../src/CSC566_Assignment5_I.c:189:12: warning: declaration of built-in function 'fscanf' requires inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+extern int fscanf(struct t___8 *stream , char const   *format  , ...) ;
+           ^
+9 warnings generated.
+Finished building: ../src/CSC566_Assignment5_I.c
+ 
+Building target: CSC566_Assignment5_I
+Invoking: MacOS X C Linker
+gcc  -o "CSC566_Assignment5_I"  ./src/CSC566_Assignment5_I.o   
+Finished building target: CSC566_Assignment5_I
+ 
+08:51:56 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+08:53:34 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+08:53:42 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+11:58:29 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+11:58:37 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+11:58:41 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+12:19:18 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+12:19:22 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.

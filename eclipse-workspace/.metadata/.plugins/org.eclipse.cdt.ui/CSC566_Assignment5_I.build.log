@@ -1,0 +1,6 @@
+12:19:22 **** Incremental Build of configuration Debug for project CSC566_Assignment5_I ****
+make all 
+make: Nothing to be done for `all'.
+
+12:19:23 Build Finished. 0 errors, 0 warnings. (took 70ms)
+

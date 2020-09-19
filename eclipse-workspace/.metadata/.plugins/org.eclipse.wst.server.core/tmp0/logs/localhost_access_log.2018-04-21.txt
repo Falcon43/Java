@@ -1,0 +1,12 @@
+127.0.0.1 - - [21/Apr/2018:15:22:25 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:23:20 +0530] "GET /restapp/WEB-INF/classes/arg/aishwarya/resteasy/restapp/MyResource.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:14 +0530] "GET /restapp/webapi/messages HTTP/1.1" 200 385
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:22 +0530] "PUT /restapp/webapi/messages/3 HTTP/1.1" 200 122
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:27 +0530] "GET /restapp/webapi/messages HTTP/1.1" 200 545
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:33 +0530] "PUT /restapp/webapi/messages/3 HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:37 +0530] "PUT /restapp/webapi/messages/3 HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:41 +0530] "PUT /restapp/webapi/messages/3 HTTP/1.1" 200 122
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:46 +0530] "POST /restapp/webapi/messages/ HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:24:56 +0530] "GET /restapp/webapi/messages HTTP/1.1" 200 724
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:25:05 +0530] "GET /restapp/webapi/messages/1 HTTP/1.1" 200 124
+0:0:0:0:0:0:0:1 - - [21/Apr/2018:15:25:12 +0530] "GET /restapp/webapi/messages HTTP/1.1" 200 724

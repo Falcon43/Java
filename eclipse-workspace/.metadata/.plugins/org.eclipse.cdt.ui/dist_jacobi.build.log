@@ -1,0 +1,14 @@
+10:45:20 **** Incremental Build of configuration Debug for project dist_jacobi ****
+make all 
+Building file: ../dist_jacobi.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dist_jacobi.d" -MT"dist_jacobi.o" -o "dist_jacobi.o" "../dist_jacobi.c"
+../dist_jacobi.c:46:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make: *** [dist_jacobi.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:45:20 Build Failed. 2 errors, 0 warnings. (took 337ms)
+
